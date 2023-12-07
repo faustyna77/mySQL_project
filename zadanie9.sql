@@ -1,0 +1,1 @@
+SELECT pasazer.nazwisko FROM pasazer  JOIN adres ON adres.id=pasazer.adres_id WHERE adres.wojewodztwo='Podkarpackie'

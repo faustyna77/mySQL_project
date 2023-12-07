@@ -1,0 +1,1 @@
+SELECT pasazer.nazwisko, pasazer.imie FROM pasazer LEFT JOIN rezerwacja ON pasazer.id=rezerwacja.pasazer_id WHERE rezerwacja.bagaz=0

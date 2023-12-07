@@ -1,0 +1,1 @@
+SELECT adres.miejscowosc FROM adres WHERE adres.miejscowosc LIKE 'L%k'
